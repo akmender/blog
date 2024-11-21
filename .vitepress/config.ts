@@ -1,7 +1,10 @@
 import { defineConfig } from 'vitepress'
+import Theme from 'vitepress-theme-open17'
+import baseConfig from 'vitepress-theme-open17/config'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+ extends: baseConfig,
   title: "程序笔记",
   description: "我的个人备忘录",
   themeConfig: {

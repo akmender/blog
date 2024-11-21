@@ -1,10 +1,17 @@
 {
+  "type":"module",
   "devDependencies": {
-    "vitepress": "^1.5.0"
+    "@types/node": "^22.9.1",
+    "typescript": "^5.6.3",
+    "vitepress": "^1.5.0",
+    "vitepress-theme-open17": "^1.2.1"
   },
   "scripts": {
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "dependencies": {
+    "@giscus/vue": "^3.0.0"
   }
 }
